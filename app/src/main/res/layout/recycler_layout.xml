@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="1dp"
+    android:background="@drawable/recycler_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Doimjs"
+            android:textColor="@color/black"
+            android:textSize="26sp"></TextView>
+
+        <TextView
+            android:id="@+id/amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Rs 300"
+            android:textColor="@color/black"
+            android:textSize="22sp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/date"
+            android:textSize="18sp"
+            android:layout_margin="5dp"
+            android:text="asdas"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/time"
+            android:textSize="18sp"
+            android:layout_margin="5dp"
+            android:text="SDSDS"
+            ></TextView>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:background="@android:color/holo_orange_dark"></View>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
